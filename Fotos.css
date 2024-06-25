@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  
+  }
+  
+  nav {
+  
+  width: 60%;
+  
+  
+  }
+  
+  ul{
+  
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  
+  }
+  
+  li {
+  
+  list-style: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 19px;
+  transition: .5s;
+  font-family: 'kdam thmor pro', sans-serif;
+  
+  
+  
+  }
+  
+  
+  li:hover {
+  
+      color: #d21617;
+  }
+  
+  #logo{
+    width: 150px;
+    height: auto;
+    }  
+  
+  #banner{
+  
+  background-image: url('https://pbs.twimg.com/media/FBwMEAMWQAA6BOO.jpg');
+  
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  
+  
+  }
+.actor-cards-container{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}   
+
+.cards-content{
+width: 90%;
+display: grid;
+grid-template-columns: repeat(3, 12fr);
+row-gap: 20px;
+column-gap: 40px;
+
+
+}
+
+.card{
+
+width: 100%;
+height: 600px;
+background-size:cover ;
+background-position: 50% 50%;
+border-radius: 5px;
+cursor: pointer;
+transition: 1s;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+padding: 0 0 20px 10px;
+color: #fff;
+font-size: 17px;
+font-family: 'kdam thmor pro', sans-serif;
+
+}
+
+
+.card:hover{
+
+    transform: scale(1.02);
+
+}
+
+
+
+.banner-1{
+    background-image: url('https://conteudo.imguol.com.br/c/colunas/fa/2022/02/28/batsy-abre-1-1646038184536_v2_4x3.jpg');
+
+    
+}
+
+.banner-2{
+    background-image: url('https://eulorenaribeiro.com/wp-content/uploads/2022/03/the-batman-2.jpg?w=1024');
+}
+
+.banner-3{
+    background-image: url('https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121731/rev-1-TBM-11721r_High_Res_JPEG-970x550.jpeg');
+}
+
+.banner-4{
+    background-image: url('https://sgsonfilm.files.wordpress.com/2022/03/the-batman-pattinson.png');
+}
+
+.banner-5{
+    background-image: url('https://www.cinemaescrito.com/wp-content/uploads/2022/03/the-batman-scaled.jpg');
+}
+
+.banner-6{
+    background-image: url('https://res.cloudinary.com/pingback/image/upload/q_auto/imgs/user/194708/gallery/ibcasud1kic0gaysdwaj');
+}
+
+.banner-7{
+    background-image: url('https://www.cinemadebuteco.com.br/wp-content/uploads/2022/03/Captura-de-Tela-2022-03-03-a%CC%80s-20.11.08.png');
+}
+
+.banner-8{
+    background-image: url('https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/16B26/production/_123466929_a68a6bbe-77cb-4c08-b0a4-8c7c56f47218.jpg');
+}
+
+.banner-9{
+    background-image: url('https://m.media-amazon.com/images/I/51ct6cPOUGL._AC_UF1000,1000_QL80_.jpg');
+}
+
+.banner-10{
+    background-image: url('https://variety.com/wp-content/uploads/2022/03/MCDBATM_WB080.jpg?w=1000&h=563&crop=1');
+}
+
+.banner-11{
+    background-image: url('https://www.filmtoast.de/wp-content/uploads/the_batman_3.jpeg');
+}
+
+.banner-12{
+    background-image: url('https://cinepop.com.br/wp-content/uploads/2022/10/620503.jpg');
+}
+
+
+footer {
+    height: 300px ;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  span {
+    color: #fff;
+    font-family: 'kdam thmor pro', sans-serif;
+  
+  }
+  
+  .footer-navigation
+  {
+  
+  display: none;
+  }
+  
+  .footer-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  
+  
+  }
+
+
+
+
+@media(max-width: 768px) {
+    .footer-navigation {
+      display: block;
+    }
+    
+    nav {
+    display: none;
+    
+    
+    }
+
+#banner  {
+    background-position: 40%;
+  }
+
+ .cards-content{
+    grid-template-columns: 1fr;
+    margin-top: 150px;
+  }
+
+}

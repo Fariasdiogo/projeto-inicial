@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    
+    
+    }
+
+    header {
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      
+      
+      }
+      
+      nav {
+      
+      width: 60%;
+      
+      
+      }
+      
+      ul{
+      
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      }
+      
+      li {
+      
+      list-style: none;
+      color: aliceblue;
+      cursor: pointer;
+      font-size: 19px;
+      transition: .5s;
+      font-family: "Kdam Thmor Pro", sans-serif;           
+      
+      }
+      
+      
+      li:hover {
+      
+          color: #d21617;
+      }
+      
+      #logo{
+        width: 150px;
+        height: auto;
+        }  
+      
+      #banner{
+      
+      background-image: url('https://pbs.twimg.com/media/FBwMEAMWQAA6BOO.jpg');
+      
+      background-position: 50% 50%;
+      background-size: cover;
+      width: 100%;
+      height: 600px;
+      
+      
+      }
+
+
+.contact{
+width: 100%;
+height: auto;
+display: flex;
+font-size: 30px;
+justify-content: center;
+row-gap: 40px;
+margin-top: 40px;
+font-family: 'kdam thmor pro', sans-serif;
+color: aliceblue;
+}
+
+
+
+.telephone{
+
+width: 18%;
+height: auto;
+display: grid;
+font-size: 23px;
+font-family: 'kdam thmor pro', sans-serif;
+color: aliceblue;
+justify-content: space-between;
+margin-left: 40px;
+margin-top: 40px;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.telephone:hover{
+    color: #d21617;
+}
+
+
+.e-mail{
+width: 20%;
+height: auto;
+display: grid;
+font-size: 23px;
+font-family: 'kdam thmor pro', sans-serif;
+color: aliceblue;
+justify-content: space-between;
+margin-left: 40px;
+margin-top: 40px;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.e-mail:hover{
+    color: #d21617;
+}
+
+.adress{
+width:25%;
+height: auto;
+display: grid;
+font-size: 23px;
+font-family: 'kdam thmor pro', sans-serif;
+color: aliceblue;
+justify-content: space-between;
+margin-left: 40px;
+margin-top: 40px;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.adress:hover{
+    color: #d21617;
+}
+
+
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #fff;
+    font-family: 'kdam thmor pro', sans-serif;
+
+}
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+@media(max-width: 768px){
+
+    .footer-navigation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 40%;}
+
+        #trailer-container{
+       width: 100%;
+       height: 400px;
+       display: flex;
+       flex-direction: column;
+    }
+
+
+
+
+}
+
+
+
